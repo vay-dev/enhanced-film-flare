@@ -30,7 +30,6 @@ const Search: React.FC<SearchProps> = ({
   fetchMoviesByGenre,
   activeTab,
   setActiveTab,
-  selectedGenre,
   setSelectedGenre,
 }) => {
   // ==== array of text ==== //

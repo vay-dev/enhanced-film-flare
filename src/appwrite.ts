@@ -11,7 +11,7 @@ const client = new Client()
 
 const database = new Databases(client);
 
-export const updateSearchTerm = async (searchTerm, movie) => {
+export const updateSearchTerm = async (searchTerm: string, movie: any) => {
   const existingDocuments = await database.listDocuments(
     databaseId,
     collectionId,

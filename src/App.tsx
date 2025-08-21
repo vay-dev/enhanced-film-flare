@@ -9,7 +9,7 @@ import Search from "./components/search"; // Search component with tabs and genr
 import MovieCarousel from "./components/movieCarousel.tsx"; // Horizontal scrolling movie carousel
 import MovieGrid from "./components/movieGrid"; // Responsive grid layout for movies
 import type { BtnValueInterface } from "./interfaces/btnValue.interface";
-import { updateSearchTerm, getTrendingMovies } from "./appwrite.js";
+import { updateSearchTerm, getTrendingMovies } from "./appwrite.ts";
 import ErrorMessage from "./components/errorMesage.tsx"; // Error handling component
 
 const App = () => {
